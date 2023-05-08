@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { HomeComponent } from './home/home.component'
 import { AboutComponent } from './about/about.component'
+import { ContactoComponent } from './contacto/contacto.component'
 
 import { AppRoutingModule } from './app.routing';
 
@@ -13,6 +14,7 @@ import { AppRoutingModule } from './app.routing';
   imports: [BrowserModule, FormsModule, AppRoutingModule],
   declarations: [
     HomeComponent,
+    ContactoComponent,
     AboutComponent,
     AppComponent, HelloComponent],
   bootstrap: [AppComponent]
